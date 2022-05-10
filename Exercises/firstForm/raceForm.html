@@ -1,0 +1,62 @@
+<!-- You can use your own content, or use the following to help get started -->
+<!--  just make sure to use the same number of data points -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+    <h1>Race Registiration!</h1>
+
+    <form action="/race">
+        <div>
+            <label for="first">First Name</label>
+        <input type="text" id="first" name="first" required minlength="3" maxlength="25" placeholder="first name">
+        <label for="second">Last Name</label>
+        <input type="text" id="last" name="last" required minlength="3" maxlength="25" placeholder="last name">
+        </div>
+        <div>
+            <h2>Select a Race:</h2>
+        <div>
+            <input type="radio" id="fun" name="run" value="fun" required>
+            <label for="fun">Fun Run 5k</label>
+        </div>
+        
+        <div>
+            <input type="radio" id="half" name="run" value="fun">
+            <label for="half">Half Marathon</label>   
+        </div>
+       
+        <div>
+            <input type="radio" id="full" name="run" value="fun">
+            <label for="full">Full Marathon</label>
+        </div>
+       
+        </div>
+        
+        <div>
+            <label for="email">Email</label>
+    <input type="email" name="email" id="email" required placeholder="myname123@mymail.com">
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required minlength="8" placeholder="password">
+    <div>
+        <label for="ages">Select Age Group</label>
+    <select id="ages" name="ages" required>
+        <option value="">Please choose an age group</option>
+        <option value="under18">under 18</option>
+        <option value="18-30">18-30</option>
+        <option value="30-50">30-50</option>
+        <option value="50+">50+</option>
+    </select>
+    </div>
+    
+        </div>
+    
+   <div> <button type="submit">Register!</button></div>
+   
+    </form>
+    
+
+</body>
