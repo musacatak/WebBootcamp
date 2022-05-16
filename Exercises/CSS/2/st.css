@@ -1,0 +1,23 @@
+body {
+    color : purple ;
+}
+
+h1 {
+    color : cyan;
+}
+
+section {
+    color: brown ;
+}
+
+form {
+    color : red;
+}
+
+button, input {
+    color : inherit;
+}
+
+input::placeholder {
+    color : red;
+}

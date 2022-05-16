@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: cyan underline;
+    letter-spacing: 15px;
+    font-size: 65px;
+    font-family:  papyrus , fantasy;
+}
+p{
+    text-align: right;
+    line-height: 2.0;
+    letter-spacing: 5px;
+    font-family: papyrus , sans-serif;
+}
+a{
+    text-decoration: none;
+}
